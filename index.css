@@ -1,0 +1,120 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #263849;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+#nav-title-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top-nav {
+  display: flex;
+  gap: 40px;
+  font-family: "Spectral", static;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #35bcbf;
+}
+
+a {
+  color: #41506b;
+  text-decoration: none;
+  font-size: 1.5em;
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.brand {
+  font-family: "Spectral", static;
+  font-size: 60px;
+  color: #90f6d7;
+}
+
+#aside-article-container {
+  display: flex;
+  margin-top: 70px;
+}
+
+aside {
+  flex-grow: 1;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+article {
+  flex-grow: 2;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Spectral", static;
+  padding-right: 132px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #35bcbf;
+  margin-left: -2vw;
+}
+
+article,
+h1 {
+  text-align: center;
+  color: #90f6d7;
+}
+
+aside ul {
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  color: #41506b;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #35bcbf;
+}
+
+aside li {
+  font-family: "Spectral", static;
+  padding: 5px 10px;
+  border-bottom: 2px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+aside li:last-child {
+  border-bottom: none;
+}
+
+footer {
+  height: 60px;
+  background-color: #35bcbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #41506b;
+}
