@@ -35,7 +35,7 @@ body {
 }
 
 a {
-  color: #41506b;
+  color: black;
   text-decoration: none;
   font-size: 1.5em;
   width: 10vw;
@@ -91,7 +91,7 @@ aside ul {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  color: #41506b;
+  color: black;
   border: 2px solid white;
   border-radius: 10px;
   font-size: 20px;
@@ -110,11 +110,20 @@ aside li:last-child {
   border-bottom: none;
 }
 
+.testimonial {
+  background-color: #41506b;
+  border-radius: 20px;
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 22px;
+  padding-top: 1px;
+}
+
 footer {
   height: 60px;
   background-color: #35bcbf;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #41506b;
+  color: black;
 }
